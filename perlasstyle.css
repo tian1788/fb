@@ -1,8 +1,13 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
 
 body{
     background-image: url("joy/bg.gif");
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: contain;
     position: relative;
     padding-top: 40px;
 }
@@ -21,7 +26,7 @@ img {
 
 .notif_area {
     background-color: rgba(240, 240, 240, .8);
-    width: 1000px;
+    width: 410px;
 }
 
 .notif {
@@ -31,8 +36,8 @@ img {
 }
 
 .icon {
-    height: 150px;
-    width: 150px;
+    height: 65px;
+    width: 65px;
 }
 
 .text {
@@ -40,18 +45,16 @@ img {
 }
 
 .box{
-    background-color: rgb(0, 136, 255);
-    height: 300px;
-    width: 300px;
+    background-color: rgb(255, 255, 255);
+    height: 120px;
+    width: 206px;
     position: absolute;
-    left: -30%;
+    left: -206px;
     transition: 500ms ease-in-out;
 }
 
-#toggle{
-
-}
 
 .title{
     text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
